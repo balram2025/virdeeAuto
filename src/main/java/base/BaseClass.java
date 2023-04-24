@@ -37,7 +37,9 @@ public class BaseClass {
 //			driver = new ChromeDriver();
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
-        driver.get("https://dashboard-stage-backend-prd4964.virdee.co/users");
+        driver.get("https://dashboard-dev.virdee.co/login");
+//        https://dashboard-dev.virdee.co/login
+//        https://dashboard-stage-backend-prd4964.virdee.co/users
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }

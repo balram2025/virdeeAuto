@@ -38,10 +38,10 @@ public class accessPage extends BaseClass {
     @FindBy(xpath = "//label[text()='Search Locations']//following-sibling::div//input")
     WebElement searchLLocationInput;
 
-    @FindBy(css = "[aria-label='Choose Friday, April 21, 2023 as your check-in date. It’s available.']")
+    @FindBy(css = "[aria-label='Choose Friday, April 28, 2023 as your check-in date. It’s available.']")
     WebElement fromDate;
 
-    @FindBy(css = "[aria-label='Choose Monday, April 24, 2023 as your check-out date. It’s available.']")
+    @FindBy(css = "[aria-label='Choose Monday, May 1, 2023 as your check-out date. It’s available.']")
     WebElement toDate;
 
     @FindBy(xpath = "//label[text()='Check-in']//following-sibling::div")
