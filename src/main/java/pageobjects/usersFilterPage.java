@@ -196,7 +196,7 @@ public class usersFilterPage extends BaseClass {
 
     public void logout() throws InterruptedException {
         Thread.sleep(5000);
-        action.click2(logoutButton);
+//        action.click2(logoutButton);
         Thread.sleep(8000);
     }
 

@@ -9,6 +9,7 @@
         <module name="virdeeAutomationProject" />
         <module name="virdee filters" />
         <module name="1virdeeAutomationProject" />
+        <module name="virdeeAuto" />
         <module name="reg of virdee" />
         <module name="virdee all in one" />
       </profile>
