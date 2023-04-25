@@ -125,8 +125,8 @@ public class usersPage extends BaseClass {
         action.type2(numberInput, getMobileNumber);
         action.click2(selectRole);
         act.moveToElement(user).click().build().perform();
-        action.type2(passwordInput, "Geron@219");
-        action.type2(confirmPassword, "Geron@219");
+//        action.type2(passwordInput, "Geron@219");
+//        action.type2(confirmPassword, "Geron@219");
 
         action.click2(nextButton);
         action.click2(location);
