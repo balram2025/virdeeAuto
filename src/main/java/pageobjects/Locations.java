@@ -46,7 +46,7 @@ public class Locations extends BaseClass {
         action.click2(locationsButton);
         action.type2(inputLocations,"Hotel Virdee");
         action.click2(searchButton);
-        action.click2(tickBox);
+//        action.click2(tickBox);
         action.click2(hotelVirdeeClick);
         js.executeScript("window.scrollBy(0,-250)","");
         Thread.sleep(1000);
