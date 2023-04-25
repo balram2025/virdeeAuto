@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.swing.text.Utilities;
+
 import static base.BaseClass.driver;
 
 public class HomePage extends BaseClass {
@@ -27,7 +29,7 @@ public class HomePage extends BaseClass {
 
     public void navigateToHomePage() throws InterruptedException {
         Thread.sleep(5000);
-        homeButton.click();
+        act.click2(homeButton);
         Thread.sleep(4000);
     }
 
