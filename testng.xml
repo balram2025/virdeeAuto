@@ -7,14 +7,14 @@
     <test verbose="2" preserve-order="true" name="D:/virdeeAutomationProject">
         <classes>
             <class name="Tests.LoginPageTest"/>
-<!--            <class name="Tests.accessInternalTest"/>-->
-<!--            <class name="Tests.HomePageTest"/>-->
-<!--            <class name="Tests.accessfilteringTest"/>-->
-<!--            <class name="Tests.UsersPageTest"/>-->
-<!--            <class name="Tests.accessTest"/>-->
-<!--            <class name="Tests.LocationsTest"/>-->
-<!--            <class name="Tests.ReportingTest"/>-->
-<!--            <class name="Tests.usersFilteringTest"/>-->
+            <class name="Tests.accessInternalTest"/>
+            <class name="Tests.HomePageTest"/>
+            <class name="Tests.accessfilteringTest"/>
+            <class name="Tests.UsersPageTest"/>
+            <class name="Tests.accessTest"/>
+            <class name="Tests.LocationsTest"/>
+            <class name="Tests.ReportingTest"/>
+            <class name="Tests.usersFilteringTest"/>
 
         </classes>
     </test>
