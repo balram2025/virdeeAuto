@@ -85,6 +85,11 @@
       <artifactId>fillo</artifactId>
       <version>1.21</version>
     </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-http-jdk-client</artifactId>
+      <version>4.5.0</version>
+    </dependency>
 
   </dependencies>
 

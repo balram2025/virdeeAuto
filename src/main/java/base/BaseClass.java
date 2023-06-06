@@ -35,9 +35,10 @@ public class BaseClass {
 //			WebDriver driver = new ChromeDriver();
 //			WebDriverManager.chromedriver().setup();
 //			driver = new ChromeDriver();
+        System.setProperty("webdriver.http.factory","jdk-http-client");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://dashboard-dev.virdee.co/login");
+        driver.get(" https://dashboard-dev.virdee.co/login");
 //        https://dashboard-dev.virdee.co/login
 //        https://dashboard-stage-backend-prd4964.virdee.co/users
         driver.manage().window().maximize();
